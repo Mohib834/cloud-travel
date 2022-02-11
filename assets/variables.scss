@@ -1,0 +1,70 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+
+$body-font-family: 'Mulish', sans-serif;
+// Update $font-size-root to update the 1rem value.
+$font-size-root: 16px;
+$border-radius-root: 5px;
+
+$material-light: (
+  text: (
+    primary: #333,
+    // text--primary will give you this color and not primary--text, this will give you primary theme color
+  ),
+);
+
+$container-max-widths: (
+  'md': 900px,
+  'lg': 1210px,
+  'xl': 1210px,
+);
+
+$headings: (
+  'h1': (
+    'size': 2rem,
+    'line-height': 40px,
+  ),
+  'h2': (
+    'size': 1.5rem,
+    'line-height': 1.875rem,
+  ),
+  'h3': (
+    'size': 1rem,
+    'line-height': 20px,
+  ),
+  'h4': (
+    'size': 0.875rem,
+    'line-height': 16px,
+  ),
+  'body-1': (
+    'size': 0.875rem,
+    'line-height': 20px,
+  ),
+  'body-2': (
+    'size': 0.75rem,
+    'line-height': 16px,
+  ),
+);
+
+$font-weights: (
+  'regular': 400,
+  'bold': 700,
+);
+
+// Button
+$btn-font-weight: 700;
+$btn-border-radius: 3px;
+$btn-text-transform: 'initial';
+$btn-font-sizes: (
+  'default': 1.125rem,
+);
+
+// Text fields
+$text-field-border-radius: 3px;
+$text-field-padding: 0 16px;
+
+// Cards
+$card-elevation: 0;
+
+// // Steppers
+// $stepper-header-elevation: 0;
+// $stepper-elevation: 0;
